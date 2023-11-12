@@ -36,7 +36,7 @@ while true; do
 		fi
 		;;
 
-　　　　　　　　　　　　　　　　　　　　　　　　　　　# Exit が入力された場合
+　　　　　　　　　　　　　　　　　　　　　　　　　　# Exit が入力された場合
 	     "Exit")
                 echo "Thank you!"
 		## プログラムが終了
