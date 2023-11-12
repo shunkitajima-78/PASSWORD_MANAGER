@@ -36,11 +36,14 @@ while true; do
 		fi
 		;;
 
+　　　　　　　　　　　　　　　　　　　　　　　　　　# Exit が入力された場合
 	     "Exit")
                 echo "Thank you!"
+		## プログラムが終了
 		exit
 		;;
 
+	　　　　　　　　　　# Add Password/Get Password/Exit 以外が入力された場合
 	     *)
 	        echo "入力が間違えています。Add Password/Get Password/Exitから入力してください。"
 		;;
