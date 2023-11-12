@@ -6,9 +6,8 @@ while true; do
 	read choice
 
 	case $choice in
-	     # Add Password が入力された場合
-	　　　　　　　　　　"Add Password")
-
+             # Add Password が入力された場合
+             "Add Password")
 		read -p "サービス名を入力してください: " serviceName
 		read -p "ユーザー名を入力してください: " userName
 		read -s -p "パスワードを入力してください: " password
@@ -35,15 +34,15 @@ while true; do
 		   echo "パスワード：$password"
 		fi
 		;;
-
-　　　　　　　　　　　　　　　　　　　　　　　　　　# Exit が入力された場合
+	     
+             # Exit が入力された場合
 	     "Exit")
                 echo "Thank you!"
 		## プログラムが終了
 		exit
 		;;
-
-	　　　　　　　　　　# Add Password/Get Password/Exit 以外が入力された場合
+	     
+	     # Add Password/Get Password/Exit 以外が入力された場合
 	     *)
 	        echo "入力が間違えています。Add Password/Get Password/Exitから入力してください。"
 		;;
