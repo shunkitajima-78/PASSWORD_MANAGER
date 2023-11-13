@@ -28,7 +28,7 @@ while true; do
 
 	    # 復号化したデータを一時ファイルに保存し、エラーは出力しない
 	    gpg -d password.gpg > password.txt 2> /dev/null
-	    echo "$serviceName:$userName:$password" >> passwords.txt
+	    echo "$serviceName:$userName:$password" >> password.txt
 
 	    # 入力ファイルを暗号化して出力ファイルに保存する
 	    gpg -r "$gpg_email" -e -o password.gpg password.txt
